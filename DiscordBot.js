@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-import { token } from './Hidden.js';
+import { token } from './Hidden.js'; // add this to hide bot token!
 
 const fs = require('fs');
 
