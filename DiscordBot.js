@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 const fs = require('fs');
 
-const prefix = '!';
+const prefix = '>';
 
 client.commands = new Discord.Collection();
 
@@ -33,4 +33,4 @@ client.on('message', message => {
     }
 });
  
-client.login('NTkzNzc5Mjc5NzgzNzg4NTQ0.XRS2DA.apkLHLC47sUDX2PG_QN6gGxWNAo');
+client.login('NTkzNzc5Mjc5NzgzNzg4NTQ0.XRS2DA.5bFm_Rpnq9IwvTjsX4C-Cs1qW2E');
