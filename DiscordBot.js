@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+import { token } from './Hidden.js';
+
 const fs = require('fs');
 
 const prefix = '>';
@@ -33,4 +35,4 @@ client.on('message', message => {
     }
 });
  
-client.login('NTkzNzc5Mjc5NzgzNzg4NTQ0.XRS2DA.5bFm_Rpnq9IwvTjsX4C-Cs1qW2E');
+client.login(token); // Bot token comes here!
